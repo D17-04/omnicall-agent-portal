@@ -1,0 +1,63 @@
+[
+  {
+    "id": "queue-call-101",
+    "customerId": "cust-101",
+    "customerName": "Sarah Jenkins",
+    "customerPhone": "+1 (555) 234-5678",
+    "queue": "Enterprise VIP Support",
+    "priority": "critical",
+    "status": "queued",
+    "waitTimeSeconds": 142,
+    "durationSeconds": 0,
+    "notes": "Calling back regarding urgent SAML SSO timeout on production domain"
+  },
+  {
+    "id": "queue-call-102",
+    "customerId": "cust-106",
+    "customerName": "Liam Thorne",
+    "customerPhone": "+44 20 7946 0912",
+    "queue": "Billing & Accounts",
+    "priority": "high",
+    "status": "queued",
+    "waitTimeSeconds": 98,
+    "durationSeconds": 0,
+    "notes": "Follow-up on multi-currency wire fee discrepancy ticket TCK-8802"
+  },
+  {
+    "id": "queue-call-103",
+    "customerId": "cust-102",
+    "customerName": "David Chen",
+    "customerPhone": "+1 (555) 345-6789",
+    "queue": "Developer & API Support",
+    "priority": "normal",
+    "status": "queued",
+    "waitTimeSeconds": 64,
+    "durationSeconds": 0,
+    "notes": "Inquiring about webhook failure notification alerts"
+  },
+  {
+    "id": "queue-call-104",
+    "customerId": "cust-105",
+    "customerName": "Emily Watson",
+    "customerPhone": "+1 (555) 678-9012",
+    "queue": "Technical Support",
+    "priority": "normal",
+    "status": "queued",
+    "waitTimeSeconds": 31,
+    "durationSeconds": 0,
+    "notes": "Product CSV batch import validation warning help"
+  },
+  {
+    "id": "queue-call-105",
+    "customerId": "cust-111",
+    "customerName": "Zoe Kravitz",
+    "customerPhone": "+1 (555) 890-1234",
+    "queue": "Billing & Accounts",
+    "priority": "high",
+    "status": "queued",
+    "waitTimeSeconds": 15,
+    "durationSeconds": 0,
+    "notes": "Credit card update assistance for monthly renewal"
+  }
+]
+

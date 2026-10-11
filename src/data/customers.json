@@ -1,0 +1,410 @@
+[
+  {
+    "id": "cust-101",
+    "name": "Sarah Jenkins",
+    "email": "sarah.jenkins@acmecorp.com",
+    "phone": "+1 (555) 234-5678",
+    "company": "Acme Global Solutions",
+    "plan": "Enterprise VIP",
+    "lifetimeValue": "$24,500",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+    "location": "Austin, TX (CST)",
+    "memberSince": "2022-03-15",
+    "sentiment": "frustrated",
+    "notes": "Key account decision maker. Prefers direct answers and follow-up emails with ticket IDs. Has experienced intermittent SSO timeouts this week.",
+    "tickets": [
+      {
+        "id": "TCK-8821",
+        "title": "SSO SAML authentication gateway timeout",
+        "status": "open",
+        "priority": "urgent",
+        "createdAt": "2026-10-11T09:14:00Z",
+        "updatedAt": "2026-10-11T14:30:00Z",
+        "category": "Authentication"
+      },
+      {
+        "id": "TCK-8104",
+        "title": "Seat expansion request for Q4",
+        "status": "resolved",
+        "priority": "medium",
+        "createdAt": "2026-09-18T11:20:00Z",
+        "updatedAt": "2026-09-20T16:45:00Z",
+        "category": "Billing"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "INT-401",
+        "date": "2026-10-09T16:15:00Z",
+        "type": "chat",
+        "summary": "Customer reported 504 error during Okta login.",
+        "agentName": "Marcus Vance",
+        "outcome": "Escalated to Tier 2 DevOps"
+      },
+      {
+        "id": "INT-389",
+        "date": "2026-09-20T14:10:00Z",
+        "type": "call",
+        "summary": "Confirmed 25 additional seat provision in workspace.",
+        "agentName": "Elena Rostova",
+        "outcome": "Resolved & Invoiced"
+      }
+    ]
+  },
+  {
+    "id": "cust-102",
+    "name": "David Chen",
+    "email": "dchen@innovatetech.io",
+    "phone": "+1 (555) 345-6789",
+    "company": "InnovateTech Labs",
+    "plan": "Pro Business",
+    "lifetimeValue": "$12,800",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+    "location": "San Francisco, CA (PST)",
+    "memberSince": "2023-01-10",
+    "sentiment": "neutral",
+    "notes": "Technical lead. Inquiring about Webhook retry exponential backoff settings.",
+    "tickets": [
+      {
+        "id": "TCK-8799",
+        "title": "Webhook payload signature mismatch",
+        "status": "pending",
+        "priority": "high",
+        "createdAt": "2026-10-10T18:00:00Z",
+        "updatedAt": "2026-10-11T08:20:00Z",
+        "category": "Developer API"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "INT-398",
+        "date": "2026-10-10T17:45:00Z",
+        "type": "call",
+        "summary": "Inquired on HMAC verification logic and SHA256 headers.",
+        "agentName": "Alex Rivera",
+        "outcome": "Docs link sent"
+      }
+    ]
+  },
+  {
+    "id": "cust-103",
+    "name": "Maria Rodriguez",
+    "email": "m.rodriguez@valhallalogistics.com",
+    "phone": "+1 (555) 456-7890",
+    "company": "Valhalla Logistics",
+    "plan": "Enterprise VIP",
+    "lifetimeValue": "$38,000",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+    "location": "Chicago, IL (CST)",
+    "memberSince": "2021-08-04",
+    "sentiment": "positive",
+    "notes": "Long time advocate. Very friendly. Recently completed billing renewal.",
+    "tickets": [
+      {
+        "id": "TCK-8740",
+        "title": "Annual contract renewal tax exemption invoice update",
+        "status": "resolved",
+        "priority": "medium",
+        "createdAt": "2026-10-02T10:11:00Z",
+        "updatedAt": "2026-10-04T15:20:00Z",
+        "category": "Billing"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "INT-385",
+        "date": "2026-10-04T15:15:00Z",
+        "type": "call",
+        "summary": "Updated VAT exemption certificate in accounting.",
+        "agentName": "Alex Rivera",
+        "outcome": "Resolved"
+      }
+    ]
+  },
+  {
+    "id": "cust-104",
+    "name": "James Wilson",
+    "email": "jwilson@apexmedical.org",
+    "phone": "+1 (555) 567-8901",
+    "company": "Apex Medical Care",
+    "plan": "Enterprise VIP",
+    "lifetimeValue": "$42,100",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+    "location": "Boston, MA (EST)",
+    "memberSince": "2020-11-20",
+    "sentiment": "urgent",
+    "notes": "HIPAA compliance requirement. Requires dedicated audit log exports.",
+    "tickets": [
+      {
+        "id": "TCK-8815",
+        "title": "HIPAA BAA signed copy & Q3 audit log export",
+        "status": "open",
+        "priority": "urgent",
+        "createdAt": "2026-10-11T07:45:00Z",
+        "updatedAt": "2026-10-11T12:10:00Z",
+        "category": "Compliance"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "INT-403",
+        "date": "2026-10-11T08:00:00Z",
+        "type": "email",
+        "summary": "Requested quarterly access log bundle for compliance audit.",
+        "agentName": "Alex Rivera",
+        "outcome": "In Progress"
+      }
+    ]
+  },
+  {
+    "id": "cust-105",
+    "name": "Emily Watson",
+    "email": "emily@craftcommerce.co",
+    "phone": "+1 (555) 678-9012",
+    "company": "Craft Commerce",
+    "plan": "Growth",
+    "lifetimeValue": "$6,400",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    "location": "Denver, CO (MST)",
+    "memberSince": "2023-07-19",
+    "sentiment": "neutral",
+    "notes": "Store migration in progress. Occasional questions regarding Shopify sync integration.",
+    "tickets": [
+      {
+        "id": "TCK-8690",
+        "title": "Inventory sync latency over 15 minutes",
+        "status": "resolved",
+        "priority": "low",
+        "createdAt": "2026-09-29T14:30:00Z",
+        "updatedAt": "2026-10-01T11:00:00Z",
+        "category": "Integrations"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "INT-370",
+        "date": "2026-10-01T10:45:00Z",
+        "type": "chat",
+        "summary": "Configured webhook push frequency to real-time.",
+        "agentName": "Chloe Dupont",
+        "outcome": "Resolved"
+      }
+    ]
+  },
+  {
+    "id": "cust-106",
+    "name": "Liam Thorne",
+    "email": "liam@horizonfin.co.uk",
+    "phone": "+44 20 7946 0912",
+    "company": "Horizon Financial Group",
+    "plan": "Pro Business",
+    "lifetimeValue": "$18,900",
+    "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80",
+    "location": "London, UK (GMT)",
+    "memberSince": "2022-09-02",
+    "sentiment": "frustrated",
+    "notes": "Currency conversion discrepancies on foreign card transactions.",
+    "tickets": [
+      {
+        "id": "TCK-8802",
+        "title": "Multi-currency settlement exchange rate discrepancy",
+        "status": "open",
+        "priority": "high",
+        "createdAt": "2026-10-10T14:22:00Z",
+        "updatedAt": "2026-10-11T10:00:00Z",
+        "category": "Billing"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "INT-395",
+        "date": "2026-10-10T14:30:00Z",
+        "type": "call",
+        "summary": "Client questioned EUR/GBP conversion spread applied to ledger.",
+        "agentName": "Alex Rivera",
+        "outcome": "Referred to Finance"
+      }
+    ]
+  },
+  {
+    "id": "cust-107",
+    "name": "Priya Patel",
+    "email": "priya.patel@novabio.org",
+    "phone": "+1 (555) 789-0123",
+    "company": "NovaBio Research",
+    "plan": "Enterprise VIP",
+    "lifetimeValue": "$51,000",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+    "location": "Seattle, WA (PST)",
+    "memberSince": "2021-02-14",
+    "sentiment": "positive",
+    "notes": "Director of Research IT. Highly technical, very appreciative of quick resolution times.",
+    "tickets": [
+      {
+        "id": "TCK-8610",
+        "title": "Large dataset export timeout (50GB+)",
+        "status": "closed",
+        "priority": "medium",
+        "createdAt": "2026-09-12T09:00:00Z",
+        "updatedAt": "2026-09-13T17:00:00Z",
+        "category": "Data Management"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "INT-350",
+        "date": "2026-09-13T16:30:00Z",
+        "type": "call",
+        "summary": "Assisted with S3 direct multipart bucket export script.",
+        "agentName": "Marcus Vance",
+        "outcome": "Resolved with 5-star CSAT"
+      }
+    ]
+  },
+  {
+    "id": "cust-108",
+    "name": "Robert Tanaka",
+    "email": "robert@tanakadesign.jp",
+    "phone": "+81 3 5555 0142",
+    "company": "Tanaka Digital Agency",
+    "plan": "Growth",
+    "lifetimeValue": "$8,200",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80",
+    "location": "Tokyo, Japan (JST)",
+    "memberSince": "2023-11-05",
+    "sentiment": "neutral",
+    "notes": "Requested Japanese localization for end-user client portal.",
+    "tickets": [],
+    "interactions": [
+      {
+        "id": "INT-312",
+        "date": "2026-08-20T04:10:00Z",
+        "type": "email",
+        "summary": "Shared product roadmap update regarding i18n support.",
+        "agentName": "Alex Rivera",
+        "outcome": "Info provided"
+      }
+    ]
+  },
+  {
+    "id": "cust-109",
+    "name": "Grace O'Connor",
+    "email": "grace@greenfieldenergy.ie",
+    "phone": "+353 1 496 0199",
+    "company": "Greenfield Renewable Energy",
+    "plan": "Pro Business",
+    "lifetimeValue": "$16,500",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+    "location": "Dublin, Ireland (IST)",
+    "memberSince": "2022-06-18",
+    "sentiment": "positive",
+    "notes": "Power user of custom reports and automated alert triggers.",
+    "tickets": [
+      {
+        "id": "TCK-8772",
+        "title": "Scheduled email reports failing for external recipients",
+        "status": "pending",
+        "priority": "medium",
+        "createdAt": "2026-10-08T11:00:00Z",
+        "updatedAt": "2026-10-09T14:15:00Z",
+        "category": "Reporting"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "INT-390",
+        "date": "2026-10-09T14:00:00Z",
+        "type": "call",
+        "summary": "Verified SPF and DKIM domain alignment for customer's SMTP relay.",
+        "agentName": "Alex Rivera",
+        "outcome": "Pending customer DNS update"
+      }
+    ]
+  },
+  {
+    "id": "cust-110",
+    "name": "Marcus Aurel",
+    "email": "m.aurel@imperiumlogistics.de",
+    "phone": "+49 30 1234567",
+    "company": "Imperium Fleet Management",
+    "plan": "Enterprise VIP",
+    "lifetimeValue": "$64,000",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80",
+    "location": "Berlin, Germany (CET)",
+    "memberSince": "2020-04-12",
+    "sentiment": "neutral",
+    "notes": "Large logistics fleet with over 500 active telemetry streams.",
+    "tickets": [],
+    "interactions": [
+      {
+        "id": "INT-377",
+        "date": "2026-09-25T13:00:00Z",
+        "type": "call",
+        "summary": "Annual executive business review and SLA confirmation.",
+        "agentName": "Elena Rostova",
+        "outcome": "Renewed SLA tier"
+      }
+    ]
+  },
+  {
+    "id": "cust-111",
+    "name": "Zoe Kravitz",
+    "email": "zoe@stellarstudios.com",
+    "phone": "+1 (555) 890-1234",
+    "company": "Stellar Media Studios",
+    "plan": "Starter",
+    "lifetimeValue": "$1,800",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+    "location": "Los Angeles, CA (PST)",
+    "memberSince": "2024-02-10",
+    "sentiment": "frustrated",
+    "notes": "Trouble upgrading payment method after credit card expiry.",
+    "tickets": [
+      {
+        "id": "TCK-8819",
+        "title": "Payment gateway declined new Mastercard",
+        "status": "open",
+        "priority": "high",
+        "createdAt": "2026-10-11T08:50:00Z",
+        "updatedAt": "2026-10-11T13:00:00Z",
+        "category": "Billing"
+      }
+    ],
+    "interactions": [
+      {
+        "id": "INT-402",
+        "date": "2026-10-11T12:50:00Z",
+        "type": "chat",
+        "summary": "Payment 3D Secure verification failing on checkout page.",
+        "agentName": "Alex Rivera",
+        "outcome": "Sent direct Stripe invoice link"
+      }
+    ]
+  },
+  {
+    "id": "cust-112",
+    "name": "Devon Scott",
+    "email": "dscott@quantumhardware.com",
+    "phone": "+1 (555) 901-2345",
+    "company": "Quantum Core Hardware",
+    "plan": "Pro Business",
+    "lifetimeValue": "$14,200",
+    "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&q=80",
+    "location": "Toronto, Canada (EST)",
+    "memberSince": "2023-04-01",
+    "sentiment": "positive",
+    "notes": "Always friendly, testing beta firmware integration.",
+    "tickets": [],
+    "interactions": [
+      {
+        "id": "INT-361",
+        "date": "2026-09-15T15:20:00Z",
+        "type": "call",
+        "summary": "Invited to Q4 beta customer advisory board.",
+        "agentName": "Alex Rivera",
+        "outcome": "Accepted invite"
+      }
+    ]
+  }
+]
+
